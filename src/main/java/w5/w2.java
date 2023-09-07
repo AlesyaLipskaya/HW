@@ -1,7 +1,7 @@
 package w5;
 
 import java.util.Arrays;
-import java.util.Random;
+
 
 public class w2 {
     public static void main(String[] args) {
