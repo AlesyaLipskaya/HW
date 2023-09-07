@@ -1,19 +1,1 @@
-package HW3;
-import java.util.Scanner;
 
-    public void 11() {
-        for(int i=10;i<21;i++)
-        {
-            System.out.println(i+"^2="+i*i);
-        }
-    }
-    public void task4() {
-        int i=7;
-        String result = "";
-        while(i<100){
-            result += i + " ";
-            i+=7;
-        }
-        System.out.println(result);
-    }
-}
