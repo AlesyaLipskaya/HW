@@ -5,7 +5,7 @@ public class Main {
         Dog dog = new Dog();
         Cat cat = new Cat();
 
-        dog.doVoice(); // Выводит "Гав-гав"
-        cat.doVoice(); // Выводит "Мяу-мяу"
+        dog.doVoice(); // Выводит "Гав"
+        cat.doVoice(); // Выводит "Мяу"
     }
 }

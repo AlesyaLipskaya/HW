@@ -3,12 +3,12 @@ package hw7;
 public class Main {
     public static void main(String[] args) {
         Director director = new Director();
-        director.printPosition();  // Вывод: Директор
+        director.printPosition();
 
         Worker worker = new Worker();
-        worker.printPosition();  // Вывод: Рабочий
+        worker.printPosition();
 
         Accountant accountant = new Accountant();
-        accountant.printPosition();  // Вывод: Бухгалтер
+        accountant.printPosition();
     }
 }

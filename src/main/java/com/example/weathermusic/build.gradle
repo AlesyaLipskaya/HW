@@ -1,0 +1,6 @@
+groovy
+implementation 'org.json:json:20210307'
+implementation 'com.github.bshaffer:oauth-signpost:1.2.0.2'
+implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+implementation 'org.apache.httpcomponents:httpcore:4.4.14'
+implementation 'javazoom:jlayer:1.0.1'
