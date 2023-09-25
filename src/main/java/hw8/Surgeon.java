@@ -1,7 +1,8 @@
 package hw8;
 public class Surgeon extends Doctor {
     @Override
-    public void treat() {
-        System.out.println("Хирург случайно вырезал почку");
+    public void assignDoctor(Patient patient) {
+        patient.setDoctor(this);
+        System.out.println("Surgeon assigned to patient with treatment plan " + patient.getTreatmentPlan());
     }
 }

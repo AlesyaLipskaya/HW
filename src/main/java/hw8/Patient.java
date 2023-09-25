@@ -2,19 +2,28 @@ package hw8;
 public class Patient {
     private int treatmentPlan;
     private Doctor doctor;
+
+    public Patient() {
+        // пустой конструктор без аргументов
+    }
+
     public Patient(int treatmentPlan) {
         this.treatmentPlan = treatmentPlan;
     }
-    public void assignDoctor() {
-        if (treatmentPlan == 1) {
-            doctor = new Surgeon();
-        } else if (treatmentPlan == 2) {
-            doctor = new Dentist();
-        } else {
-            doctor = new Therapist();
-        }
+
+    public int getTreatmentPlan() {
+        return treatmentPlan;
     }
-    public void treat() {
-        doctor.treat();
+
+    public void setTreatmentPlan(int treatmentPlan) {
+        this.treatmentPlan = treatmentPlan;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
     }
 }
