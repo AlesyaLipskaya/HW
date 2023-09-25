@@ -15,13 +15,11 @@ public class Main3 {
             for (int i = 0; i < inputString.length(); i++) {
                 char letter = Character.toLowerCase(inputString.charAt(i));
 
-                if (letter >= 'a' && letter <= 'z') { //символ является буквой английского алфавита
-                    int index = letter - 'a'; //  индекс элемента в массиве frequencyDictionary
-
-                    frequencyDictionary[index]++; // увеличиваем счетчик для данной буквы
+                if (letter >= 'a' && letter <= 'z') {
+                    int index = letter - 'a';
+                    frequencyDictionary[index]++;
                 }
             }
-
             return frequencyDictionary;
         }
     }
