@@ -1,24 +1,17 @@
 package w10;
 
 public class Main2 {
-
         public static void main(String[] args) {
-            // Создание объекта StringBuilder с начальной строкой
-            StringBuilder sb = new StringBuilder("Hello");
+            String str = "Hello";
+            String str2 = "xxxx";
 
-            // Добавление строки "xxxx"
-            sb.append("xxxx");
+            StringBuilder sb = new StringBuilder(str);
 
-            // Вставка символа "y" в 5-ю позицию
-            sb.insert(4, "y");
-
-            // Удаление символов с 3 по 6
-            sb.delete(2, 7);
-
-            // Переворот строки
+            sb.append(str2);
+            sb.insert(5, "y");
+            sb.delete(2, 6);
             sb.reverse();
 
-            // Преобразование StringBuilder в String и вывод в консоль
             String result = sb.toString();
             System.out.println(result);
         }
