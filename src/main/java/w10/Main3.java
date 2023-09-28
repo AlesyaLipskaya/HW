@@ -6,7 +6,7 @@ public class Main3 {
             String inputString = "Hello, World!";
             int[] frequencyDictionary = createFrequencyDictionary(inputString);
 
-            System.out.println("Частотный словарь: " + Arrays.toString(frequencyDictionary));
+            System.out.println("словарь: " + Arrays.toString(frequencyDictionary));
         }
 
         public static int[] createFrequencyDictionary(String inputString) {
