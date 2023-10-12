@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
         String longestWord = "";
         try {
-            File inputFile = new File("romeo-and-juliet.txt");
-            File outputFile = new File("romeo-and-juliet2.txt");
+            File inputFile = new File("txt.txt");
+            File outputFile = new File("txt2.txt");
             Scanner scanner = new Scanner(inputFile);
             FileWriter writer = new FileWriter(outputFile);
 
