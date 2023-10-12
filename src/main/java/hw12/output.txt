@@ -1,0 +1,1 @@
+Самое длинное слово: D:\java\idea\HW\src\main\java\hw12\input.txt
