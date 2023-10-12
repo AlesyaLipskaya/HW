@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 public class FileAnalyzer {
         public static void main(String[] args) {
-            File inputFile = new File("D:\\java\\idea\\HW\\src\\main\\java\\hw12\\input.txt");
+            File inputFile = new File("src/main/java/hw12/input.txt");
             try {
                 Scanner scanner = new Scanner(inputFile);
                 String longestWord = "";
