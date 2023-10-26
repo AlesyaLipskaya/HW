@@ -1,21 +1,19 @@
 package hw14.w2;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
+import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>();
-        Scanner scanner = new Scanner(System.in);
+        Integer[] numbers = {1, -2, 3, -4, 5};
 
-        System.out.println("Введите 5 чисел:");
-        for (int i = 0; i < 5; i++) {
-            int number = scanner.nextInt();
-            numbers.add(number);
-        }
+        printPositiveNumbers(numbers);
+    }
+
+    private static void printPositiveNumbers(Integer[] numbers) {
+        Predicate<Integer> isPositive = n -> n > 0;
 
         for (Integer number : numbers) {
-            if (number > 0) {
+            if (isPositive.test(number)) {
                 System.out.println(number);
             }
         }
