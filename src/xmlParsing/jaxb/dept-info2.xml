@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:department xmlns:ns2="http://o7planning.org/jaxb">
+    <deptNo>D01</deptNo>
+    <deptName>ACCOUNTING</deptName>
+    <tag>1234</tag>
+    <employees>
+        <employee>
+            <empName>Tom</empName>
+            <empNo>E01</empNo>
+        </employee>
+        <employee>
+            <empName>Mary</empName>
+            <empNo>E02</empNo>
+        </employee>
+        <employee>
+            <empName>John</empName>
+            <empNo>E03</empNo>
+        </employee>
+    </employees>
+</ns2:department>
