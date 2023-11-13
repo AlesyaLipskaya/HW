@@ -15,7 +15,7 @@ public class Main {
         retrievedUser.setEmail("l1pskayaalesya@yandex.by");
         retrievedUser.update();
 
-        // удаление пользователя из базы данных
+        // удаление пользователя
         retrievedUser.delete();
     }
 }
