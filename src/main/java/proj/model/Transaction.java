@@ -7,8 +7,6 @@ public class Transaction {
     private String status;
     private LocalDateTime dateTime;
 
-    // Геттеры и сеттеры
-
     @Override
     public String toString() {
         return dateTime + " | " + fileName + " | " + status;

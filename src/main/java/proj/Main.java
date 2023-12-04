@@ -53,7 +53,6 @@ public class Main {
             try (BufferedReader reader = new BufferedReader(new FileReader(reportFilePath))) {
                 String line;
                 while ((line = reader.readLine()) != null) {
-                    // Просто разбиваем строку по разделителям и создаем объект Transaction
                     String[] parts = line.split("\\|");
                     if (parts.length >= 4) {
                         Transaction transaction = new Transaction();
