@@ -23,12 +23,12 @@ public class Main {
         switch (choice) {
             case 1:
                 try {
-                    List<Account> accounts = FileParser.parseFile("HW/src/input/input1.txt");
+                    List<Account> accounts = FileParser.parseFile("src//input//input1.txt");
                     List<Transaction> transactions = TransactionProcessor.processTransactions(accounts);
                     ReportGenerator.generateReport(transactions, "report.txt");
                 } catch (IOException e) {
                     e.printStackTrace();
-                } catch (Exception e) {1
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
                 break;

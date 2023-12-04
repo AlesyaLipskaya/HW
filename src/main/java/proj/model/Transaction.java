@@ -13,4 +13,13 @@ public class Transaction {
     public String toString() {
         return dateTime + " | " + fileName + " | " + status;
     }
+
+    public void setFileName(String file) {
+    }
+
+    public void setStatus(String успешноОбработан) {
+    }
+
+    public void setDateTime(LocalDateTime now) {
+    }
 }
